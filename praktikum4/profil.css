@@ -1,0 +1,122 @@
+/* Mengatur ukuran elemen */
+* {
+    box-sizing: border-box;
+}
+
+/* Selector elemen */
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background-color: lavenderblush;
+    color: #51404A;
+    line-height: 1.6;
+}
+
+/* Selector ID dan box model */
+#profil {
+    width: 420px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 30px 24px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #F3B6CC;
+    border-radius: 16px;
+    text-align: center;
+}
+
+/* Selector class untuk foto profil */
+.foto {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid pink;
+    object-fit: cover;
+}
+
+/* Selector class untuk label mahasiswa */
+.status {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 18px;
+    background-color: #E9A8C2;
+    color: white;
+    border-radius: 20px;
+}
+
+/* Selector grup */
+h1, h2 {
+    color: #A74772;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Mengatur jurusan */
+.jurusan {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(165, 91, 120);
+}
+
+/* Selector turunan */
+.kartu .deskripsi {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #66545D;
+}
+
+/* Mengatur label keahlian */
+.label {
+    display: inline-block;
+    margin: 5px 3px;
+    padding: 6px 15px;
+    background-color: rgba(233, 168, 194, 0.25);
+    color: #A74772;
+    border-radius: 20px;
+}
+
+/* Mengatur tombol */
+.tombol {
+    display: inline-block;
+    margin: 20px 5px 0;
+    padding: 10px 22px;
+    border: 1px solid #D77FA3;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.pesan {
+    color: #A74772;
+    background-color: white;
+}
+
+.kontak {
+    color: white;
+    background-color: #D77FA3;
+}
+
+/* Mengatur ikon media sosial */
+.sosial {
+    margin-top: 25px;
+}
+
+/* Mengatur posisi logo media sosial */
+.sosial {
+    margin-top: 25px;
+}
+
+/* Mengatur ukuran logo */
+.sosial img {
+    width: 25px;
+    height: 25px;
+    margin: 0 12px;
+    vertical-align: middle;
+}
